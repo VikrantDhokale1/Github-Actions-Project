@@ -126,7 +126,7 @@ jobs:
     runs-on: self-hosted
     needs: buils_docker_image_and_push
     steps:
-    - name: Checkout Code
+    - name: Checkout Code 
       uses: actions/checkout@v4
     - name: Install AWS CLI
       run: |
